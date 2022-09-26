@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+}
+
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+  }
+  
+  .card {
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  
+  .title {
+    font-weight: 800;
+    font-size: 32px;
+  }
+  
+  .hero-image {
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+  }
+  
+  .container {
+    margin: 13px 0;
+  }
+  
+
+  .order-description {
+    line-height: 25px;
+    padding: 15px;
+  }
+  
+  .plan-container {
+    font-size: 16px;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    background: lavender;
+  }
+  
+  .plan-container a {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0px 0px 0px 135px;
+  }
+  
+  .plan-container a:hover {
+    text-decoration: none;
+  }
+  
+  .plan-description {
+    line-height: 20px;
+  }
+  
+  button {
+    width: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: white;
+    margin-top: 22px;
+  }
+  
+  .proceed-button {
+    padding: 15px;
+    margin-top: 30px;
+    background: blue;
+    color: white;
+    box-shadow:10px 10px rgb(197 189 245)
+  }
+  
+  .proceed-button:hover {
+    background-color: rgb(251, 144, 144);
+  }
